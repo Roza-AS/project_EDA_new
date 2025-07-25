@@ -48,3 +48,10 @@ poetry env use python3.11
 
 # Install dependencies
 poetry install
+
+---
+## How to run the app
+poetry run streamlit run app.py
+
+---
+## ENJOY exploring you data!
