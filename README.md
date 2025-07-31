@@ -36,9 +36,28 @@ A simple and interactive web app for performing **Exploratory Data Analysis (EDA
 Make sure you have Python 3.11 installed.
 
 ```bash
-# Clone the repo
-git clone https://github.com/YOUR-USERNAME/project-eda.git
-cd project-eda
+Step 1: Clone the repo with GitHub Desktop
+Open GitHub Desktop app.
+
+Click File > Clone Repository.
+
+In the URL tab, paste your repo URL, e.g.,
+https://github.com/YOUR-USERNAME/project-eda.git
+
+Choose a local path (folder) where you want to save the project.
+
+Click Clone.
+
+Step 2: Open cloned project in PyCharm
+Launch PyCharm.
+
+Click Open (or File > Open).
+
+Navigate to the folder where you cloned the repo with GitHub Desktop.
+
+Select the project folder and click Open.
+
+PyCharm will load your project — you can now edit, run, and manage it.
 
 # Install Poetry (if not already installed)
 curl -sSL https://install.python-poetry.org | python3.11 -
