@@ -34,12 +34,14 @@ A simple and interactive web app for performing **Exploratory Data Analysis (EDA
 ##  Installation
 
 Make sure you have Python 3.11 installed.
+
 ---
 
 ## Limitations
 
 This works only with CSV files, and the one's who their values do not contain special chars,
 due to an encoding problem. Sorry in advance.
+
 ---
 
 ```bash
