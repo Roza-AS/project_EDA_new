@@ -1,26 +1,26 @@
 # project_EDA_new
-# 📊 Automatic EDA Generator
+# Automatic EDA Generator
 
 A simple and interactive web app for performing **Exploratory Data Analysis (EDA)** using **Streamlit**. Upload your CSV file and get instant summary statistics, visualizations, and insights.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📁 Upload any CSV dataset
-- 🔍 View shape, column types, and summary statistics
-- 🧼 Detect missing values
-- 📊 Visualize:
+-  Upload any CSV dataset
+-  View shape, column types, and summary statistics
+-  Detect missing values
+-  Visualize:
   - Histograms with KDE curves
   - Correlation heatmaps
   - Pair plots
   - Box plots for outlier detection
   - Bar plots for categorical columns
-- 🚫 Skips categorical variables with too many categories for clean plotting
+-  Skips categorical variables with too many categories for clean plotting
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.11
 - [Streamlit](https://streamlit.io/)
@@ -31,14 +31,16 @@ A simple and interactive web app for performing **Exploratory Data Analysis (EDA
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Make sure you have Python 3.11 installed.
+---
 
 ## Limitations
 
 This works only with CSV files, and the one's who their values do not contain special chars,
 due to an encoding problem. Sorry in advance.
+---
 
 ```bash
 Step 1: Clone the repo with GitHub Desktop
