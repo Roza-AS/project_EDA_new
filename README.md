@@ -60,7 +60,7 @@ Select the project folder and click Open.
 PyCharm will load your project — you can now edit, run, and manage it.
 
 # Install Poetry (if not already installed)
-curl -sSL https://install.python-poetry.org | python3.11 -
+https://install.python-poetry.org | python3.11 -
 
 # Use Python 3.11 for this project
 poetry env use python3.11
@@ -70,7 +70,7 @@ poetry install
 
 ---
 ## How to run the app
-poetry run streamlit run app.py
+execute the main.py and in the terminal run this line: poetry run streamlit run app.py
 
 ---
 ## ENJOY exploring you data!
